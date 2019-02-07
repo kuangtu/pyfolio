@@ -425,6 +425,7 @@ def to_series(df):
     return df[df.columns[0]]
 
 
+#不再使用
 # This functions is simply a passthrough to empyrical, but is
 # required by the register_returns_func and get_symbol_rets.
 default_returns_func = empyrical.utils.default_returns_func
